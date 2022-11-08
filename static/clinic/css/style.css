@@ -11448,8 +11448,6 @@ Sidebar Page Container
     border-bottom: 0;
 }
 
-.category-list li:last-child {}
-
 .category-list li a {
     position: relative;
     display: block;
@@ -11458,7 +11456,7 @@ Sidebar Page Container
     font-weight: 400;
     line-height: 30px;
     padding: 10px 20px;
-    padding-left: 45px;
+    padding-right: 45px;
     background-color: rgba(0, 0, 0, 0.01);
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
@@ -11470,12 +11468,12 @@ Sidebar Page Container
 .category-list li a:before {
     position: absolute;
     top: 0;
-    left: 20px;
+    right: 20px;
     height: 50px;
     line-height: 50px;
     font-size: 14px;
     color: #1e69b8;
-    content: "\f105";
+    content: "\f104";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     -webkit-transition: all 200ms ease;
@@ -11486,7 +11484,7 @@ Sidebar Page Container
 }
 
 .category-list li a span {
-    float: right;
+    float: left;
     font-size: 14px;
     color: #333333;
     -webkit-transition: all 200ms ease;
@@ -11839,8 +11837,6 @@ Our Shop
     transition: all 300ms ease;
     border: 1px solid #eeeeee;
 }
-
-.shop-item:hover .inner-box {}
 
 .shop-item .inner-box .image {
     position: relative;
@@ -13875,7 +13871,10 @@ Terms And Conditions
     margin-bottom: 15px;
 }
 
-
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
 
 .rtl .page-title {
     text-align: right;
@@ -13884,7 +13883,7 @@ Terms And Conditions
 
 .rtl .page-title .title-outer {
     transform: scaleX(-1);
-    text-align: left;
+    text-align: right;
 }
 
 /***
