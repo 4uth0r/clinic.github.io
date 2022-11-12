@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     
-    <title>تماس | درمانگاه امام جعفر صادق(ع)</title>
+    <title>دریافت نوبت | درمانگاه امام جعفر صادق(ع)</title>
     
     <link rel="shortcut icon" href="index.html" type="image/x-icon">
     
@@ -87,8 +87,8 @@
                                 <a href="../shop/index.html">فروشگاه</a>
                             </li>
                             
-                            <li class="current">
-                                <a href="index.html">تماس</a>
+                            <li >
+                                <a href="../contact/index.html">تماس</a>
                             </li>
                         </ul>
                     </nav>
@@ -96,7 +96,7 @@
                     
                     <div class="outer-box">
                         <button class="search-btn"><span class="fa fa-search"></span></button>
-                        <a href="../appointment/index.html" class="theme-btn btn-style-one">
+                        <a href="index.html" class="theme-btn btn-style-one">
                             <span class="btn-title">دریافت نوبت</span>
                             <span></span> <span></span> <span></span> <span></span> <span></span>
                         </a>
@@ -175,112 +175,83 @@
         
         
 
-<!--Page Title-->
-<section class="page-title" style="background-image: url('../static/clinic/images/background/8.jpg');">
-    <div class="auto-container">
-        <div class="title-outer">
-            <h1>تماس با ما</h1>
-            <ul class="page-breadcrumb">
-                <li><a href="../index.html">خانه</a></li>
-                <li>تماس</li>
-            </ul> 
-        </div>
-    </div>
-</section>
-<!--End Page Title-->
-
-<!-- Contact Section -->
-<section class="contact-section" id="contact">
-    <div class="small-container">
-        <div class="sec-title text-center">
-            <span class="sub-title">تماس با ما</span>
-            <h2>راه‌های ارتباط با درمانگاه</h2>
-            <span class="divider"></span>
-        </div>
-        
-        <!-- Contact box -->
-        <div class="contact-box">
-            <div class="row">
-                <div class="contact-info-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner">
-                        <span class="icon flaticon-worldwide"></span> 
-                        <h4><strong>آدرس</strong></h4>
-                        <p>خراسان رضوی، تربت جام <br>المهدی ۲۰</p>
-                    </div>
-                </div>
-                
-                <div class="contact-info-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner">
-                        <span class="icon flaticon-phone"></span> 
-                        <h4><strong>تلفن</strong></h4>
-                        <p><a href="javascript:void(0)">051-5252-1234</a></p>
-                        <p><a href="javascript:void(0)">051-5252-4321</a></p>
-                    </div>
-                </div>
-                
-                <div class="contact-info-block col-lg-4 col-md-6 col-sm-12">
-                    <div class="inner">
-                        <span class="icon flaticon-email"></span> 
-                        <h4><strong>پست الکترونیک</strong></h4>
-                        <p><a href="mailto:info@example.com">info@example.com</a></p>
-                        <p><a href="mailto:support@example.com">support@example.com</a></p>
-                    </div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="card m-5 p-5">
+                <div class="card-body">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom01">نام</label>
+                                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                                <div class="valid-feedback">
+                                    صحیح
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom02">نام خانوادگی</label>
+                                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom03">تخصص</label>
+                                <input type="text" class="form-control" id="validationCustom03" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid city.
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationCustom04">پزشک</label>
+                                <select class="custom-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationCustom05">Zip</label>
+                                <input type="text" class="form-control" id="validationCustom05" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid zip.
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">درخواست نوبت</button>
+                    </form>
                 </div>
             </div>
         </div>
-        
-        <!-- Form box -->
-        <div class="form-box">
-            <div class="contact-form">
-                <form action="index.html" method="post" id="email-form">
-                    <div class="row">
-                        <div class="form-group col-lg-12">
-                            <div class="response"></div>
-                        </div>
-                        
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <input type="text" name="username" class="username" placeholder="نام *" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <input type="email" name="email" class="email" placeholder="پست الکترونیک">
-                            </div>
-                            
-                            <div class="form-group">
-                                <input type="text" name="username" class="username" placeholder="تلفن *" required>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <textarea name="contact_message" class="message" placeholder="متن پیام *" required></textarea>
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="form-group col-lg-12 text-center pt-3">
-                            <button class="theme-btn btn-style-one" type="button" id="submit" name="submit-form">
-                                <span class="btn-title">ارسال</span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
     </div>
-</section>
-<!--End Contact Section -->
+</div>
 
-<!-- Map Section -->
-<section class="map-section">
-    <div class="auto-container">
-        <div class="map-outer">
-            <iframe src="https://balad.ir/embed?p=PVUhT8we0hl7vZ" title="مشاهده «درمانگاه امام جعفر صادق» روی نقشه بلد" width="100%" height="460" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </div>
-</section>
-<!-- End Map Section -->
+
+
+<script>
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
 
 
         
