@@ -3108,7 +3108,7 @@ Page Title
     top: 0;
     height: 100%;
     width: 100%;
-    /* background-color: #ffffff;*/
+    background-color: #ffffff;
     content: "";
     opacity: .50;
 }
@@ -3116,10 +3116,7 @@ Page Title
 .page-title .title-outer {
     position: relative;
     display: inline-block;
-
     border-radius: 10px;
-
-
 }
 
 .page-title h1 {
