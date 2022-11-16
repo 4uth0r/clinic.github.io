@@ -214,14 +214,21 @@
                         </div>
                         
                         <div class="form-row">
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-4 mb-3">
                                 <label for="validationCustom03">شماره ملی</label>
                                 <input type="text" class="form-control" id="validationCustom03" required>
                                 <div class="invalid-feedback">
                                     شماره ملی را به صورت صحیح وارد کنید
                                 </div>
                             </div>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom03">شماره تلفن</label>
+                                <input type="text" class="form-control" id="validationCustom03" required>
+                                <div class="invalid-feedback">
+                                    شماره تلفن را به صورت صحیح وارد کنید
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
                                 <label for="validationCustom04">نوع بیمه</label>
                                 <select class="custom-select" id="validationCustom04" required>
                                     <option selected disabled value="">انتخاب کارگزار بیمه</option>
@@ -316,7 +323,9 @@
             title: 'نوبت شما ثبت شد',
             text: 'شماره 35256 سه‌شنبه ۱۰:۵۰ - ۲۲ آبان ۱۴۰۱',
             icon: 'success',
-            confirmButtonText: 'بستن'
+            confirmButtonText: 'پرداخت آنلاین',
+            showCancelButton: true,
+            cancelButtonText: 'بستن',
         })
     })
 </script>
